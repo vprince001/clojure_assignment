@@ -5,5 +5,3 @@
       (- 32)
       (* 5)
       (/ 9)))
-
-(print (convertFahrenheitToCentigrade 41))

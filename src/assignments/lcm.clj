@@ -1,4 +1,4 @@
 (ns assignments.lcm
-  (:require [assignments.gcd :refer [gcd]]))
+  (:require [assignments.gcd :refer [getGcd]]))
 
-(defn lcm [num1 num2] (/ (* num1 num2) (gcd num1 num2)))
+(defn getLcm [num1 num2] (/ (* num1 num2) (getGcd num1 num2)))
